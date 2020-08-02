@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
+<style type="text/css">
+    /* <![CDATA[ */
+    rect:hover {
+                background-color: yellow;
+               }
+    /* ]]> */
+</style>
+   <rect x="10" y="10" width="80" height="80" stroke="pink" stroke-width="4" fill="grey" />
+</svg>
