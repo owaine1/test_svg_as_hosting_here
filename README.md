@@ -6,7 +6,10 @@ suggests: [Sandbox archive](https://meta.stackexchange.com/questions/296077/sand
 
 `TODO` to glean through and list here relevant posts
 
-This works on the main post.
+This works on the main post:
 
 ```html
 <img src="https://raw.githubusercontent.com/owaine1/test_svg_as_hosting_here/master/square_test_and_css_in_cd_data.svg"/>
+```
+Of futher interest:  
+[Is it possible to horizontally center an image on Stack Exchange sites?](https://meta.stackexchange.com/questions/25835/is-it-possible-to-horizontally-center-an-image-on-stack-exchange-sites)
