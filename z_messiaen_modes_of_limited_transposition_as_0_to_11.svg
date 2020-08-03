@@ -1,30 +1,95 @@
 <svg xmlns="http://www.w3.org/2000/svg"  width="600" height="600" viewBox="0 0 200 200">
-  <g font-family="monospace" font-size="7px" text-anchor="middle">
-   <rect id="box" x="5" y="4" width="10" height="10" stroke="black" stroke-width="1" fill="none" />
-   <text x="10" y="11">0</text>
-   <use href="#box" x="10"/>
-   <text x="20" y="11">1</text>
-   <use href="#box" x="20"/>
-   <text x="30" y="11">2</text>
-   <use href="#box" x="30"/>
-   <text x="40" y="11">3</text>
-   <use href="#box" x="40"/>
-   <text x="50" y="11">4</text>
-   <use href="#box" x="50"/>
-   <text x="60" y="11">5</text>
-   <use href="#box" x="60"/>
-   <text x="70" y="11">6</text>
-   <use href="#box" x="70"/>
-   <text x="80" y="11">7</text>
-   <use href="#box" x="80"/>
-   <text x="90" y="11">8</text>
-   <use href="#box" x="90"/>
-   <text x="100" y="11">9</text>
-   <use href="#box" x="100"/>
-   <text x="110" y="11">10</text>
-   <use href="#box" x="110"/>
-   <text x="120" y="11">11</text>
+  <g font-family="monospace" font-size="7px" font-weight="600" text-anchor="middle">
+   <!-- <rect id="box" x="5" y="4" width="10" height="10" stroke="black" stroke-width="1" fill="none" /> -->
+   <defs>
+     <symbol id="mySymbol">
+       <circle id="master-template" cx="10" cy="8" r="4.5" stroke="black" stroke-width=".5"/>
+     </symbol>
+     <use id="neut" href="#mySymbol" fill="lightgrey"/>
+     <use id="on" href="#mySymbol" y="20" fill="black"/>
+     <!-- <circle id="on" cx="10" cy="28" r="4.5" stroke="black" stroke-width=".5" fill="black" /> -->
+     
+     <!-- <circle id="off" cx="10" cy="28" r="4.5" stroke="black" stroke-width=".5" fill="white" /> -->
+     <use id="off" href="#master-template" y="20" fill="white"/>
+     <use id="on2" href="#master-template" y="40"/>
+     <use id="off2" href="#master-template" y="40" fill="white"/>
+   </defs>
+   <use href="#neut"/>
+   <text x="10" y="10">0</text>
+   <use href="#neut" x="10"/>
+   <text x="20" y="10">1</text>
+   <use href="#neut" x="20"/>
+   <text x="30" y="10">2</text>
+   <use href="#neut" x="30"/>
+   <text x="40" y="10">3</text>
+   <use href="#neut" x="40"/>
+   <text x="50" y="10">4</text>
+   <use href="#neut" x="50"/>
+   <text x="60" y="10">5</text>
+   <use href="#neut" x="60"/>
+   <text x="70" y="10">6</text>
+   <use href="#neut" x="70"/>
+   <text x="80" y="10">7</text>
+   <use href="#neut" x="80"/>
+   <text x="90" y="10">8</text>
+   <use href="#neut" x="90"/>
+   <text x="100" y="10">9</text>
+   <use href="#neut" x="100"/>
+   <text x="110" y="10">10</text>
+   <use href="#neut" x="110"/>
+   <text x="120" y="10">11</text>
    
-   <!-- <rect x="35" y="10" width="50" height="50" stroke="pink" stroke-width="4" fill="grey" /> -->
+   <!-- Mode One -->
+   <use href="#on"/>
+   <text x="10" y="30" fill="white">0</text>
+   <use href="#off" x="10"/>
+   <text x="20" y="30">1</text>
+   <use href="#on" x="20"/>
+   <text x="30" y="30" fill="white">2</text>
+   <use href="#off" x="30"/>
+   <text x="40" y="30">3</text>
+   <use href="#on" x="40"/>
+   <text x="50" y="30" fill="white">4</text>
+   <use href="#off" x="50"/>
+   <text x="60" y="30">5</text>
+   <use href="#on" x="60"/>
+   <text x="70" y="30" fill="white">6</text>
+   <use href="#off" x="70"/>
+   <text x="80" y="30">7</text>
+   <use href="#on" x="80"/>
+   <text x="90" y="30" fill="white">8</text>
+   <use href="#off" x="90"/>
+   <text x="100" y="30">9</text>
+   <use href="#on" x="100"/>
+   <text x="110" y="30" fill="white">10</text>
+   <use href="#off" x="110"/>
+   <text x="120" y="30">11</text>
+   
+   <!-- Mode Two -->
+   <use href="#on2"/>
+   <text x="10" y="50" fill="white">0</text>
+   <use href="#on2" x="10"/>
+   <text x="20" y="50" fill="white">1</text>
+   <use href="#off2" x="20"/>
+   <text x="30" y="50">2</text>
+   <use href="#on2" x="30"/>
+   <text x="40" y="50" fill="white">3</text>
+   <use href="#on2" x="40"/>
+   <text x="50" y="50" fill="white">4</text>
+   <use href="#off2" x="50"/>
+   <text x="60" y="50">5</text>
+   <use href="#on2" x="60"/>
+   <text x="70" y="50" fill="white">6</text>
+   <use href="#on2" x="70"/>
+   <text x="80" y="50" fill="white">7</text>
+   <use href="#off2" x="80"/>
+   <text x="90" y="50">8</text>
+   <use href="#on2" x="90"/>
+   <text x="100" y="50" fill="white">9</text>
+   <use href="#on2" x="100"/>
+   <text x="110" y="50" fill="white">10</text>
+   <use href="#off2" x="110"/>
+   <text x="120" y="50">11</text>
+   
  </g>
 </svg>

@@ -13,3 +13,5 @@ This works on the main post:
 ```
 Of futher interest:  
 [Is it possible to horizontally center an image on Stack Exchange sites?](https://meta.stackexchange.com/questions/25835/is-it-possible-to-horizontally-center-an-image-on-stack-exchange-sites)
+
+`03_square....svg` does not work for hover on remote on github.
